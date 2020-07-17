@@ -1,0 +1,33 @@
+.customerDetails {
+  list-style-type: none;
+}
+
+.customerName, .customerImage {
+  padding: 0.5em 0;
+}
+
+.singleDetail {
+  display: flex;
+  flex-direction: row;
+  min-height: 1.5em;
+  margin: 0.5em 0;
+}
+
+.active {
+  color: green;
+}
+
+.inactive {
+  color: red;
+}
+
+.userStatus {
+  font-size: 0.5em;
+}
+
+.activationToggle {
+  height: 3em;
+  padding: 0.5em 1em;
+  margin-top: 2em;
+  cursor: pointer;
+}
