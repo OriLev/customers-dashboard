@@ -1,6 +1,8 @@
 main {
   max-width: 1440px;
   margin: 0 auto;
+  padding: 1em;
+  overflow: scroll;
 }
 
 .appHeader {
@@ -12,6 +14,7 @@ main {
   font-size: calc(10px + 2vmin);
   height: 15vh;
   color: white;
+  padding: 1em;
 }
 .appHeader span {
   font-size: 30px;
